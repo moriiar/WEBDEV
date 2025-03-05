@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4efef;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    width: 100%;
+    height: 90px;
+    resize: vertical;
+}
+
+.form {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+.btns1 {
+    text-align: center;
+}
+
+.btns2 {
+    text-align: center;
+}
+
+.pa {
+    font-size: 19px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background: #6789de;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btns {
+    margin-top: 30px;
+    text-align: center;
+}

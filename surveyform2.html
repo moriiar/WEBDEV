@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Satisfaction Survey Form</title>
+    <link rel="stylesheet" href="survey2.css">
+</head>
+<body>
+    <h2 align="center">Customer Satisfaction Survey Form</h2>
+    <form>
+        <div class="form">
+            <p><b>1) Why did you contact customer service?</b></p>
+            <textarea name="message" cols="55" rows="3"></textarea>
+    
+            <p><b>2) What method did you use to contact customer service?</b></p>
+            <div class="btns1">
+                <label><input type="radio" name="method"><b>Telephone</b></label>
+                <label><input type="radio" name="method"><b>Mail</b></label>
+                <label><input type="radio" name="method"><b>E-mail</b></label>
+                <label><input type="radio" name="method"><b>Fax</b></label>
+                <label><input type="radio" name="method"><b>Other:</b> <input type="text"></label>
+            </div>
+    
+            <p><b>3) How satisfied are you with the time it took customer service to answer your question or resolve your issue?</b></p>
+            <div class="btns2">
+                <label><input type="radio" name="issue"><b>Very Dissatisfied</b></label>
+                <label><input type="radio" name="issue"><b>Dissatisfied</b></label>
+                <label><input type="radio" name="issue"><b>Undecided</b></label>
+                <label><input type="radio" name="issue"><b>Satisfied</b></label>
+                <label><input type="radio" name="issue"><b>Very Satisfied</b></label>
+            </div>
+            <br>
+    
+            <p class="pa"><b>Please tell us how much you agree or disagree with the following statements.</b></p>
+    
+            <p><b>4) The customer service representative was knowledgeable and easy to understand.</b></p>
+            <div class="btns2">
+                <label><input type="radio" name="rep"><b>Strongly Disagree</b></label>
+                <label><input type="radio" name="rep"><b>Disagree</b></label>
+                <label><input type="radio" name="rep"><b>Undecided</b></label>
+                <label><input type="radio" name="rep"><b>Agree</b></label>
+                <label><input type="radio" name="rep"><b>Strongly Agree</b></label>
+            </div>
+    
+            <p><b>5) The customer service representative was able to handle my problem quickly and to my satisfaction.</b></p>
+            <div class="btns2">
+                <label><input type="radio" name="prob"><b>Strongly Disagree</b></label>
+                <label><input type="radio" name="prob"><b>Disagree</b></label>
+                <label><input type="radio" name="prob"><b>Undecided</b></label>
+                <label><input type="radio" name="prob"><b>Agree</b></label>
+                <label><input type="radio" name="prob"><b>Strongly Agree</b></label>
+            </div>
+    
+            <div class="btns">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

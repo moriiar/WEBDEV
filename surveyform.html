@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="survey1.css">
+</head>
+<body>
+    <h2 align="center">Survey Form</h2>
+
+    <form>
+        <div class="form">
+            <section><b>Section 1</b></section>
+            <p><b>1.1</b> Which of the following services do you use?</p>
+            <table class="tbl">
+                <tr>
+                    <td>
+                        <label><input type="checkbox" name="option1">Service 1</label>
+                    </td>
+                    <td>
+                        <label><input type="checkbox" name="option2">Service 2</label> <br>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <label><input type="checkbox" name="option3">Service 3</label>
+                    </td>
+                    <td>
+                        <label><input type="checkbox" name="option4">Service 4</label> <br>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <label><input type="checkbox" name="other"> Other <input type="text" name="other_text"></label>
+                    </td>
+                </tr>
+            </table>
+            <br>
+    
+            <p><b>1.2</b> How would you rate our services with our service in terms of</p>
+            <table border="2">
+                <tr>
+                    <th></th>
+                    <th>Excellent</th>
+                    <th>Very Good</th>
+                    <th>Good</th>
+                    <th>Fair</th>
+                    <th>Poor</th>
+    
+                </tr>
+    
+                <tr>
+                    <td align="right">Your Overall Experience:</td>
+                    <td><input type="radio" name="xp" value="Excellent"></td>
+                    <td><input type="radio" name="xp" value="Very Good"></td>
+                    <td><input type="radio" name="xp" value="Good"></td>
+                    <td><input type="radio" name="xp" value="Fair"></td>
+                    <td><input type="radio" name="xp" value="Poor"></td>
+                </tr>
+    
+                <tr>
+                    <td align="right">The Value of our service:</td>
+                    <td><input type="radio" name="val" value="Excellent"></td>
+                    <td><input type="radio" name="val" value="Very Good"></td>
+                    <td><input type="radio" name="val" value="Good"></td>
+                    <td><input type="radio" name="val" value="Fair"></td>
+                    <td><input type="radio" name="val" value="Poor"></td>
+                </tr>
+    
+                <tr>
+                    <td align="right">Promptness of our service:</td>
+                    <td><input type="radio" name="prompt" value="Excellent"></td>
+                    <td><input type="radio" name="prompt" value="Very Good"></td>
+                    <td><input type="radio" name="prompt" value="Good"></td>
+                    <td><input type="radio" name="prompt" value="Fair"></td>
+                    <td><input type="radio" name="prompt" value="Poor"></td>
+                </tr>
+    
+                <tr>
+                    <td align="right">The courtesy of our staff:</td>
+                    <td><input type="radio" name="courtesy" value="Excellent"></td>
+                    <td><input type="radio" name="courtesy" value="Very Good"></td>
+                    <td><input type="radio" name="courtesy" value="Good"></td>
+                    <td><input type="radio" name="courtesy" value="Fair"></td>
+                    <td><input type="radio" name="courtesy" value="Poor"></td>
+                </tr>
+            </table>
+    
+            <p><b>1.3</b> Any comments or suggestions</p>
+            <textarea name="message" cols="55" rows="3"></textarea>
+            <br><br><br>
+    
+            <section><b>Section 2</b></section>
+            <p><b>2.1</b> How may we reach you? <i>(optional)</i></p>
+            <label>Your name: <input type="text" name="text1"></label> <br>
+            <label>Phone: <input type="text" name="text1"></label> <br>
+            <label>Email: <input type="text" name="text1"></label>
+    
+            <div class="btns">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+    
+        </div>
+    </form>
+</body>
+</html>
